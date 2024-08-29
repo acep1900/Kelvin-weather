@@ -1,0 +1,9 @@
+let kelvin = 293;
+//I was defined variable Kelvin
+let celsius = kelvin - 273;
+// I subtracted 273 from the kelvin variable
+let fahrenheit = celsius *(9/5)+32;
+//I used equation to calculate Fahrenheit
+fahrenheit = Math.floor(fahrenheit);
+// I used the .floor() method from the built-in Math object to round down 
+console.log(fahrenheit);
